@@ -26,10 +26,19 @@ public class InfoListViewActivity extends AppCompatActivity {
 
     public void clickInsertar (View view){
 
+        String nombre = etNombre.getText().toString();
+        String dni = etDni.getText().toString();
+        String profesion = etProfesion.getText().toString();
+
+
 
     }
 
     public void clickModificar (View view){
+
+        String nombre = etNombre.getText().toString();
+        String dni = etDni.getText().toString();
+        String profesion = etProfesion.getText().toString();
 
 
     }

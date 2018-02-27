@@ -1,5 +1,6 @@
 package com.example.melania.u5_ejercicio4_lvempleados;
 
+import android.app.FragmentManager;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -50,6 +51,11 @@ public class MainActivity extends AppCompatActivity {
             public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
 
                 //Empleado e =((Empleado)adapterView.getItemAtPosition(i));
+
+
+                /*FragmentManager fragmentManager = getSupportFragmentManager();
+                DialogConfirmacion dialogo = new DialogConfirmacion();
+                dialogo.show(fragmentManager,"Eliminar empleado");*/
 
 
 
