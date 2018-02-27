@@ -74,16 +74,53 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void cargarDatos(){
-        lista_empleados.add(new Empleado("", "", ""));
-        lista_empleados.add(new Empleado("", "", ""));
-        lista_empleados.add(new Empleado("", "", ""));
-        lista_empleados.add(new Empleado("", "", ""));
-        lista_empleados.add(new Empleado("", "", ""));
-        lista_empleados.add(new Empleado("", "", ""));
-        lista_empleados.add(new Empleado("", "", ""));
-        lista_empleados.add(new Empleado("", "", ""));
-        lista_empleados.add(new Empleado("", "", ""));
-        lista_empleados.add(new Empleado("", "", ""));
+
+        lista_empleados.add(new Empleado(
+                "Melania Gallego",
+                "22080080A",
+                "Administrativa"));
+
+        lista_empleados.add(new Empleado(
+                "Francisco",
+                "22080080A",
+                "Informático"));
+
+        lista_empleados.add(new Empleado(
+                "Maria",
+                "22080080A",
+                "Administrativa"));
+
+        lista_empleados.add(new Empleado(
+                "Juan",
+                "22080080A",
+                "Administrativo"));
+
+        lista_empleados.add(new Empleado(
+                "Macarena",
+                "22080080A",
+                "Informática"));
+
+        lista_empleados.add(new Empleado(
+                "Alonso",
+                "22080080A",
+                "Informático"));
+
+        lista_empleados.add(new Empleado(
+                "Enrique",
+                "22080080A",
+                "Administrativo"));
+
+        lista_empleados.add(new Empleado(
+                "Ana",
+                "22080080A",
+                "Administrativa"));
+
+        lista_empleados.add(new Empleado(
+                "Pablo",
+                "22080080A",
+                "Administrativo"));
+
+
     }
 
 }//FIN MainActivity

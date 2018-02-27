@@ -22,6 +22,16 @@ public class InfoListViewActivity extends AppCompatActivity {
         btnInsertar = (Button) findViewById(R.id.Info_BtnInsertar);
         btnModificar = (Button) findViewById(R.id.Info_BtnModificar);
 
+        Bundle b = getIntent().getExtras();
+        if (b != null){
+
+            Empleado e = b.getParcelable(MainActivity.EXTRA_EMPLEADOS);
+            etNombre.setText("Nombre: " + e.getNombre());
+            etDni.setText("DNI: " + e.getDni());
+            etProfesion.setText("Profesión: " + e.getProfesion());
+
+        }
+
     }//FIN onCreate
 
     public void clickInsertar (View view){
