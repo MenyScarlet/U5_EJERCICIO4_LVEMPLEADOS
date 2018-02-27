@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "222859950574",
+    "firebase_url": "https://u5-ejercicio4-lve.firebaseio.com",
+    "project_id": "u5-ejercicio4-lve",
+    "storage_bucket": "u5-ejercicio4-lve.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222859950574:android:28a998ec1070ec71",
+        "android_client_info": {
+          "package_name": "com.example.melania.u5_ejercicio4_lvempleados"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222859950574-nhj8i96g88npncpsmci8jghsnnuvckcf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.melania.u5_ejercicio4_lvempleados",
+            "certificate_hash": "0b6dfb5dc7b298c283582160368835a422e373dc"
+          }
+        },
+        {
+          "client_id": "222859950574-263db3eg4ev5poiufttc3c66tp0qi4l8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAroTS0yv91TyuBbiXxL_W-qwvOtvybR2k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "222859950574-263db3eg4ev5poiufttc3c66tp0qi4l8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
