@@ -27,6 +27,10 @@ public class Empleado implements Parcelable {
 
    //CONSTRUCTOR
 
+
+    public Empleado() {
+    }
+
     public Empleado(String nombre, String dni, String profesion) {
         this.nombre = nombre;
         this.dni = dni;
